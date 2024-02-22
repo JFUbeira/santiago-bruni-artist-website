@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.font-jockey {
+    font-family: 'Jockey One', sans-serif;
+}
+
+.font-opensans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.gallery {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(7, 250px);
+}
